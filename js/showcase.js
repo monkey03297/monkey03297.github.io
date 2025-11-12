@@ -154,14 +154,7 @@ ctx2.beginPath();
 ctx2.arc(432, 58, 8, -0.5*Math.PI, 0.5*Math.PI);
 ctx2.fill();
 
-/*
-ctx2.beginPath();
-ctx2.moveTo(30, 220);
-ctx2.lineTo(250, 220);
-ctx2.lineTo(230, 300);
-ctx2.lineTo(50,300);
-ctx2.lineTo(30,220);
-ctx2.stroke();
-ctx2.fillStyle = "#666633";
-ctx2.fill();
-*/
+ctx.font = "24px Arial";
+ctx.fillText("Canvars Showcase 2", 4, 30);
+ctx.font = "16px Arial";
+ctx.fillText("The Sunset", 6, 50);
