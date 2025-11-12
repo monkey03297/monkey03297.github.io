@@ -1,0 +1,62 @@
+body{
+	background-image: url('../img/sand.png');
+	margin: 0;
+  	padding:0;
+}
+
+.navbar{
+	margin: 8px;
+	width:auto;
+  	overflow:auto;
+  	background-color:#FF9900;
+  	border-radius: 16px;
+	}
+.navbar ul{
+	list-style-type:none;
+	margin: 0;
+	padding:0;
+	}
+.navbar li{
+	float:left;
+	background-color:#FF9900;
+	padding:12px;
+	
+	}
+.navbar li:hover{
+	float:left;
+	background-color:#FF3333;
+	}
+.navbar a{
+	color:#000000;
+	padding:12px;
+	}
+.navbar a:hover{
+	color:#7F7F00
+	padding: 12px;
+	
+	}
+.navbar ul li.active{
+	background-color:#FF3333;
+	padding:12px;
+	
+}
+.textbox{
+	background-color:#00000033;
+	color:#000000;
+	margin-top: 16px;
+	margin-bottom: 16px;
+	margin-left: 10%;
+	margin-right:10%;
+	padding:12px;
+	border: 4px solid #FF9900;
+	border-radius: 8px;
+}
+
+.textbox P{
+	font-size:24px;
+	text-align:center;
+}
+
+.textbox td{
+	padding:8px;
+}

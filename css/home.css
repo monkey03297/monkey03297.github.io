@@ -1,0 +1,10 @@
+@keyframes blink {
+	0% {color: #FF0000;}
+	50% {color: #FF6600;}
+}
+.hometitle{
+	font-size:72px;
+	font-style: italic;
+	text-align: center;
+	animation: 0.4s blink steps(1) infinite
+}

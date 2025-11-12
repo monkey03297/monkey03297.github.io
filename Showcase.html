@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>游上賢 Personal Webpage</title>
+	<link rel="stylesheet" href="./css/main.css"> 
+	<link rel="stylesheet" href="./css/showcase.css"> 
+	<script src="./js/showcase.js" defer></script>
+</head>
+<body>
+<div class='navbar'>
+	<ul>
+		<li ><a href="Home.html">Home</a></li>
+		<li><a href="Gallery.html">Gallery</a></li>
+		<li class="active"><a href="Showcase.html">Showcase</a></li>
+		<li><a href="About.html">About</a></li>
+		<li><a href="Contact.html">Contact</a></li>
+	</ul>
+</div>
+<div class="textbox">
+	<p>Table Styler<p>
+	<table id="Table1">
+		<tr>
+			<th>Math</th>
+			<th>English</th>
+			<th>Programming</th>
+		</tr>
+		<tr>
+			<td>90</td>
+			<td>60</td>
+			<td>80</td>
+		</tr>
+		<tr>
+			<td>80</td>
+			<td>86</td>
+			<td>98</td>
+		</tr>
+	</table>
+	Change Table Width<br>
+	<button type="button" onclick="ChangeWidth('200px')">200px</button>
+	<button type="button" onclick="ChangeWidth('500px')">500px</button>
+	<br>Change Table border Width<br>
+	<button type="button" onclick="ChangeBorder(1)">1</button>
+	<button type="button" onclick="ChangeBorder(10)">10</button>
+	<button type="button" onclick="ChangeBorder(20)">20</button>
+	<br>Change Table Background Color<br>
+	<button type="button" onclick="ChangeColor('#0000FF')">Blue</button>
+	<button type="button" onclick="ChangeColor('#00FF00')">Green</button>
+	<button type="button" onclick="ChangeColor('#FF0000')">Red</button>
+	<br>
+	<button type="button" onclick="RESET()">RESET</button>
+</div>
+
+<div class="textbox">
+	<p>Polaroid Image Switcher<p>
+	<div class='PhotoFrame'>
+	<span id="photo"></span><br>
+	</div>
+
+	<div class="controls"">
+	<button type="button" onclick="prevImage()">Perv</button>
+	image <span id="current"></span> of <span id="all""></span>
+	<button type="button" onclick="nextImage()">Next</button>
+	</div>
+</div>
+
+<div class="textbox">
+	<p>Canvars Showcase<p>
+	<canvas id="myCanvas" width="512" height="400" style="border:1px solid #d3d3d3;">Your browser does not support the HTML canvas tag.</canvas>
+</div>
+</body>
+</html>
