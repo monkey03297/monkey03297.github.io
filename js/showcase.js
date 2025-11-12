@@ -154,7 +154,8 @@ ctx2.beginPath();
 ctx2.arc(432, 58, 8, -0.5*Math.PI, 0.5*Math.PI);
 ctx2.fill();
 
-ctx.font = "24px Arial";
-ctx.fillText("Canvars Showcase 2", 4, 30);
-ctx.font = "16px Arial";
-ctx.fillText("The Sunset", 6, 50);
+ctx2.fillStyle="#FFFFFF";
+ctx2.font = "24px Arial";
+ctx2.fillText("Canvars Showcase 2", 4, 30);
+ctx2.font = "16px Arial";
+ctx2.fillText("The Sunset", 6, 50);
